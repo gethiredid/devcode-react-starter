@@ -4,8 +4,7 @@ import "./style.css";
 export const HelloWorld = () => {
   return (
     <div className="hello">
-      {/* insert logo devcode on img element */}
-      {/* <img src={} alt="Devcode logo" /> */}
+      {/* insert img element with devcode logo here */}
       <div data-cy="hello-world-title">{/* insert header element here */}</div>
     </div>
   );
