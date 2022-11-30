@@ -24,7 +24,8 @@ Ini adalah challenge pertama anda di Devcode. Pada challenge ini, anda akan dibe
 
 1. [React](https://reactjs.org/)
 2. [ReactDOM](https://reactjs.org/docs/react-dom.html)
-3. [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+3. [React Router](https://reactrouter.com/en/main/start/overview)
+4. [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 
 ## Langkah-langkah Deploy menggunakan Vercel
 
