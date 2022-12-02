@@ -6,8 +6,9 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 // uncomment this code
-// import Hello from "./routes/hello";
+import Hello from "./routes/hello";
 import Home from "./routes/home";
+import ContactManager from "./routes/contacts";
 
 const router = createBrowserRouter([
   {
@@ -16,10 +17,14 @@ const router = createBrowserRouter([
   },
 
   // uncomment this code to create routing to hello page
-  // {
-  //   path: "/hello",
-  //   element: <Hello />,
-  // },
+  {
+    path: "/hello",
+    element: <Hello />,
+  },
+  {
+    path: "/contacts",
+    element: <ContactManager />,
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
