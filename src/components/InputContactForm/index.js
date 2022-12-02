@@ -1,4 +1,8 @@
 import { useState } from "react";
+
+// Uncomment code below
+// import { addNewContact } from "../../services";
+
 import "./style.css";
 
 const InputContactForm = () => {
@@ -6,7 +10,27 @@ const InputContactForm = () => {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [email, setEmail] = useState("");
 
-  const handleSubmit = () => {};
+  // Uncomment code below
+  // const { handleGetContacts } = props;
+
+  // Uncomment code below
+  // const resetInputValue = () => {
+  //   setFullName("");
+  //   setPhoneNumber("");
+  //   setEmail("");
+  // };
+
+  // Uncomment code below
+  // const handleSubmit = async () => {
+  //   await addNewContact({
+  //     full_name: fullName,
+  //     phone_number: phoneNumber,
+  //     email,
+  //   });
+
+  //   handleGetContacts();
+  //   resetInputValue();
+  // };
 
   const allowSubmit = !(!fullName || !phoneNumber || !email);
 
@@ -47,11 +71,7 @@ const InputContactForm = () => {
             placeholder="Masukkan Email"
           />
         </div>
-        <button
-          disabled={!allowSubmit}
-          data-cy="btn-submit"
-          onClick={handleSubmit}
-        >
+        <button disabled={!allowSubmit} data-cy="btn-submit">
           Simpan
         </button>
       </div>
