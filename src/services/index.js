@@ -13,17 +13,3 @@ export async function addNewContact(payload) {
     return error;
   });
 }
-
-export async function updateContactInfo(payload) {
-  return await axios
-    .put(`${BASE_URL}/contacts/${payload.id}`, payload.data)
-    .catch((error) => {
-      return error;
-    });
-}
-
-export async function deleteContact(id) {
-  return await axios.delete(`${BASE_URL}/contacts/${id}`).catch((error) => {
-    return error;
-  });
-}

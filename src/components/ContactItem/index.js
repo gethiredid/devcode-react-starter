@@ -11,15 +11,6 @@ const ContactItem = (props) => {
     handleSetSelected,
   } = props;
 
-  const handleDeleteContact = async () => {
-    await deleteContact(id);
-    handleGetContacts();
-  };
-
-  const handlEditContact = () => {
-    handleSetSelected(id, full_name, phone_number, email);
-  };
-
   return (
     <div data-cy="item-card" className="contact-item__wrapper">
       <div className="contact-item__first-row">
@@ -27,7 +18,8 @@ const ContactItem = (props) => {
           {full_name}
         </p>
         <div className="contact-item__button-wrapper">
-          <button
+          {/* Uncomment code below */}
+          {/* <button
             data-cy="btn-edit"
             className="contact-item__button contact-item__edit-button"
             onClick={handlEditContact}
@@ -40,7 +32,7 @@ const ContactItem = (props) => {
             onClick={handleDeleteContact}
           >
             Hapus
-          </button>
+          </button> */}
         </div>
       </div>
       <div className="contact-item__second-row">
