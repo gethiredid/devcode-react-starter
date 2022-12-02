@@ -8,24 +8,11 @@ const InputContactForm = (props) => {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [email, setEmail] = useState("");
 
-  const regexPhoneNumber = /^[0-9]*$/;
-  const regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  // Uncomment code below
+  // const regexPhoneNumber = /^[0-9]*$/;
+  // const regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
   const { handleGetContacts, selectedContact } = props;
-
-  const onSubmit = () => {
-    handleValidation();
-  };
-
-  const handleValidation = () => {
-    if (!regexPhoneNumber.test(phoneNumber)) {
-      alert("Nomor telepon hanya dapat berupa angka.");
-    } else if (!regexEmail.test(email)) {
-      alert("Format email tidak sesuai.");
-    } else {
-      handleSubmit();
-    }
-  };
 
   const handleSubmit = async () => {
     if (id) {
@@ -104,7 +91,11 @@ const InputContactForm = (props) => {
             placeholder="Masukkan Email"
           />
         </div>
-        <button disabled={!allowSubmit} data-cy="btn-submit" onClick={onSubmit}>
+        <button
+          disabled={!allowSubmit}
+          data-cy="btn-submit"
+          onClick={handleSubmit}
+        >
           Simpan
         </button>
       </div>
