@@ -8,9 +8,8 @@ export async function getAllContactsData() {
   });
 }
 
-// Uncomment code below
-// export async function addNewContact(payload) {
-//   return await axios.post(`${BASE_URL}/contacts`, payload).catch((error) => {
-//     return error;
-//   });
-// }
+export async function addNewContact(payload) {
+  return await axios.post(`${BASE_URL}/contacts`, payload).catch((error) => {
+    return error;
+  });
+}
