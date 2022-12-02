@@ -1,33 +1,54 @@
-import { useState } from "react";
-import { addNewContact } from "../../services";
-
+import { useEffect, useState } from "react";
+import { addNewContact, updateContactInfo } from "../../services";
 import "./style.css";
 
 const InputContactForm = (props) => {
+  const [id, setId] = useState(0);
   const [fullName, setFullName] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
   const [email, setEmail] = useState("");
 
-  const { handleGetContacts } = props;
-
-  const resetInputValue = () => {
-    setFullName("");
-    setPhoneNumber("");
-    setEmail("");
-  };
+  const { handleGetContacts, selectedContact } = props;
 
   const handleSubmit = async () => {
-    await addNewContact({
-      full_name: fullName,
-      phone_number: phoneNumber,
-      email,
-    });
+    if (id) {
+      await updateContactInfo({
+        id,
+        data: {
+          full_name: fullName,
+          phone_number: phoneNumber,
+          email,
+        },
+      });
+    } else {
+      await addNewContact({
+        full_name: fullName,
+        phone_number: phoneNumber,
+        email,
+      });
+    }
 
     handleGetContacts();
     resetInputValue();
   };
 
+  const resetInputValue = () => {
+    setId(0);
+    setFullName("");
+    setPhoneNumber("");
+    setEmail("");
+  };
+
   const allowSubmit = !(!fullName || !phoneNumber || !email);
+
+  useEffect(() => {
+    setId(selectedContact?.id);
+    setFullName(selectedContact?.fullName ? selectedContact.fullName : "");
+    setPhoneNumber(
+      selectedContact?.phoneNumber ? selectedContact?.phoneNumber : ""
+    );
+    setEmail(selectedContact?.email ? selectedContact.email : "");
+  }, [selectedContact]);
 
   return (
     <div className="input-contact__form-container">
@@ -68,8 +89,8 @@ const InputContactForm = (props) => {
         </div>
         <button
           disabled={!allowSubmit}
-          onClick={handleSubmit}
           data-cy="btn-submit"
+          onClick={handleSubmit}
         >
           Simpan
         </button>
