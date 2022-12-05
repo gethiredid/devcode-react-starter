@@ -29,10 +29,8 @@ const ContactManager = () => {
   return (
     <div className="home">
       <div className="container">
-        <InputContactForm
-          handleGetContacts={handleGetContactsData}
-          selectedContact={selectedContact}
-        />
+        {/* Tambahkan selectedContact sebagai props pada komponen InputContactForm */}
+        <InputContactForm handleGetContacts={handleGetContactsData} />
         <div className="contact-list__container">
           <>
             {contactsData && contactsData?.length > 0
