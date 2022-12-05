@@ -8,7 +8,7 @@
 4. Jalankan `npm install` pada terminal
 5. Jalankan `npm run start` pada terminal
 6. Akses `localhost:3000` pada browser
-7. Selesaikan challenge yang terdapat pada file `index.js`, `contacts/index.js`
+7. Selesaikan challenge yang terdapat pada file `services/index.js`, `contacts/index.js`
 8. Buat online repository di Github
 9. Push project ini ke online repository yang sudah anda buat
 10. Deploy project ini ke Hosting yang anda miliki atau bisa juga menggunakan layanan hosting gratis seperti Vercel
