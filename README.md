@@ -1,24 +1,17 @@
-# Devcode Starter using React
-
-## Pengenalan
-
-Ini adalah challenge pertama anda di Devcode. Pada challenge ini, anda akan diberikan tugas untuk menambahkan beberapa elemen pada proyek yang sudah dibuat menggunakan bahasa pemrograman atau framework tertentu.
+# Devcode Starter using React Level 1
 
 ## Instruksi Pengerjaan
 
-1. Buat repositori baru pada akun github anda menggunakan repository template ini dengan klik tombol **Use this template** lalu pilih opsi **Create a new repository**
-2. Clone repositori yang sudah dibuat ke local anda
-3. Setelah sukses clone, silahkan masuk ke direktori lokasi project ini di local anda
-4. Buka project ini menggunakan Code Editor, contoh Visual Studio Code
-5. Jalankan `npm install` pada terminal
-6. Jalankan `npm run start` pada terminal
-7. Akses `localhost:3000` pada browser
-8. Buat routing baru ke halaman hello pada file `src/index.js`
-9. Tambahkan Devcode Logo pada elemen gambar yang ada pada file `src/components/HelloWorld/index.js`
-10. Tambahkan elemen teks `I'm ready for the next challenge!` pada file `src/components/HelloWorld/index.js`
-11. Buat online repository di Github atau Gitlab
-12. Push project ini ke online repository yang sudah anda buat
-13. Deploy project ini ke Hosting yang anda miliki atau bisa juga menggunakan layanan hosting gratis seperti Vercel
+1. Clone repositori ini ke local anda
+2. Setelah sukses clone, silahkan masuk ke direktori lokasi project ini di local anda
+3. Buka project ini menggunakan Code Editor, contoh Visual Studio Code
+4. Jalankan `npm install` pada terminal
+5. Jalankan `npm run start` pada terminal
+6. Akses `localhost:3000` pada browser
+7. Selesaikan challenge yang terdapat pada file `index.js`, `hello/index.js`, `HelloWorld/index.js`
+8. Buat online repository di Github
+9. Push project ini ke online repository yang sudah anda buat
+10. Deploy project ini ke Hosting yang anda miliki atau bisa juga menggunakan layanan hosting gratis seperti Vercel
 
 ## Teknologi yang Digunakan
 
@@ -26,6 +19,7 @@ Ini adalah challenge pertama anda di Devcode. Pada challenge ini, anda akan dibe
 2. [ReactDOM](https://reactjs.org/docs/react-dom.html)
 3. [React Router](https://reactrouter.com/en/main/start/overview)
 4. [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+5. [Axios](https://axios-http.com/docs/intro)
 
 ## Langkah-langkah Deploy menggunakan Vercel
 
