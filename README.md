@@ -2,15 +2,15 @@
 
 ## Instruksi Pengerjaan
 
-1. Clone repositori ini ke local anda
-2. Setelah sukses clone, silahkan masuk ke direktori lokasi project ini di local anda
-3. Buka project ini menggunakan Code Editor, contoh Visual Studio Code
+1. Download source code lewat link yang telah disediakan dari halaman assesment
+2. Extract source code yang sudah terdownload pada perangkat anda
+3. Buka source code yang sudah diextract menggunakan Code Editor, contoh Visual Studio Code
 4. Jalankan `npm install` pada terminal
 5. Jalankan `npm run start` pada terminal
 6. Akses `localhost:3000` pada browser
 7. Selesaikan challenge yang terdapat pada file `services/index.js`, `contacts/index.js`
 8. Buat online repository di Github
-9. Push project ini ke online repository yang sudah anda buat
+9. Push project ke online repository yang sudah anda buat
 10. Deploy project ini ke Hosting yang anda miliki atau bisa juga menggunakan layanan hosting gratis seperti Vercel
 
 ## Teknologi yang Digunakan
