@@ -8,9 +8,15 @@ const InputContactForm = (props) => {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [email, setEmail] = useState("");
 
-  // Uncomment code below
+  // Uncomment baris kode di bawah untuk membuat regex yang akan membantu memvalidasi format nomor telepon dan email
   // const regexPhoneNumber = /^[0-9]*$/;
   // const regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+  // Challenge yang harus dikerjakan pada file ini
+  // 1. Buat sebuah fungsi yang akan memvalidasi apakah format dari nomor telepon dan email yang dimasukkan sudah benar atau belum
+  // 2. Jika format nomor telepon salah, maka tampilkan sebuah alert dengan isi pesan "Nomor telepon hanya dapat berupa angka."
+  // 3. Jika format email salah, maka tampilkan sebuah alert dengan isi pesan "Format email tidak sesuai."
+  // 4. Jika format nomor telepon dan email sudah benar, maka lanjutkan proses untuk membuat kontak baru atau meng-update kontak
 
   const { handleGetContacts, selectedContact } = props;
 
