@@ -1,17 +1,21 @@
 # Devcode Starter using React Level 2
 
+## Hasil Akhir yang Diharapkan
+
+Peserta dapat mengambil data kontak dari api dan menampilkannya dalam bentuk list pada halaman contacts
+
 ## Instruksi Pengerjaan
 
-1. Download source code lewat link yang telah disediakan dari halaman assesment
+1. Download source code melalui link yang telah disediakan dari halaman assesment
 2. Extract source code yang sudah terdownload pada perangkat anda
 3. Buka source code yang sudah diextract menggunakan Code Editor, contoh Visual Studio Code
 4. Jalankan `npm install` pada terminal
 5. Jalankan `npm run start` pada terminal
 6. Akses `localhost:3000` pada browser
 7. Selesaikan challenge yang terdapat pada file `services/index.js`, `contacts/index.js`
-8. Buat online repository di Github
+8. Buat online repository di Github (Jika belum memiliki akun Github, silahkan daftar [disini](https://github.com/signup))
 9. Push project ke online repository yang sudah anda buat
-10. Deploy project ini ke Hosting yang anda miliki atau bisa juga menggunakan layanan hosting gratis seperti Vercel
+10. Deploy project ini ke Hosting yang anda miliki atau bisa juga menggunakan layanan hosting gratis seperti Vercel (Jika belum memiliki akun Vercel, silahkan daftar [disini](https://vercel.com/signup))
 
 ## Teknologi yang Digunakan
 
@@ -20,6 +24,25 @@
 3. [React Router](https://reactrouter.com/en/main/start/overview)
 4. [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 5. [Axios](https://axios-http.com/docs/intro)
+
+## Langkah-langkah membuat repositori baru di Github
+
+1. Klik tombol **New** yang terletak di bawah username pada bagian kiri halaman utama
+   ![Step 1](create-repo-steps/step-1.png)
+2. Juga bisa klik pada ikon **+** yang ada di sebelah ikon notifikasi pada pojok kanan atas halaman utama
+   ![Step 2](create-repo-steps/step-2.png)
+3. Jika klik ikon **+**, maka langkah selanjutnya adalah pilih opsi **New Repository**
+   ![Step 3](create-repo-steps/step-3.png)
+4. Selanjutnya isi kolom **Repository name** dengan nama repositori yang akan dibuat
+   ![Step 4](create-repo-steps/step-4.png)
+5. Tambahkan deskripsi repositori pada kolom **Description**, langkah ini opsional
+   ![Step 5](create-repo-steps/step-5.png)
+6. Setelah itu, pilih opsi **Public** di bawah kolom **Description**
+   ![Step 6](create-repo-steps/step-6.png)
+7. Klik tombol **Create Repository** untuk membuat repositori baru di Github
+   ![Step 7](create-repo-steps/step-7.png)
+8. Setelah selesai, anda akan diarahkan ke halaman repo baru yang sudah dibuat sebelumnya. Silahkan ikuti langkah-langkah untuk clone repo yang sudah dibuat ke local anda
+   ![Step 8](create-repo-steps/step-8.png)
 
 ## Langkah-langkah Deploy menggunakan Vercel
 
