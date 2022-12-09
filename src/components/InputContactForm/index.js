@@ -9,7 +9,7 @@ const InputContactForm = (props) => {
   const [email, setEmail] = useState("");
 
   // Challenge yang harus dikerjakan pada file ini
-  // 1. Buat metode untuk dispatch fungsi ubah data kontak yang sudah dibuat sebelumnya di store/index.js di dalam fungsi handleSubmit
+  // 1. Buat metode untuk dispatch fungsi ubah data kontak yang sudah dibuat sebelumnya di service/index.js di dalam fungsi handleSubmit
   // 2. Pada fungsi handleSubmit, buat percabangan dengan kondisi ketika nilai dari id lebih dari 0, maka jalankan fungsi ubah data kontak dan untuk sebaliknya, maka jalankan fungsi untuk tambah kontak baru
 
   const { handleGetContacts, selectedContact } = props;
