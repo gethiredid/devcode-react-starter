@@ -1,23 +1,23 @@
-// Uncomment baris kode di bawah untuk meng-import komponen ContactItem
+// TODO: Uncomment baris kode di bawah untuk meng-import komponen ContactItem
 // import ContactItem from "../../components/ContactItem";
 
 import InputContactForm from "../../components/InputContactForm";
 import "../../assets/styles/style.css";
 
-// Uncomment baris kode di bawah ini untuk meng-import useState dan useEffect dari React
+// TODO: Uncomment baris kode di bawah ini untuk meng-import useState dan useEffect dari React
 // import { useEffect, useState } from "react";
 
 const ContactManager = () => {
-  // Uncomment baris kode di bawah untuk membuat state variable baru yang digunakan untuk menyimpan data kontak dari API
+  // TODO: Uncomment baris kode di bawah untuk membuat state variable baru yang digunakan untuk menyimpan data kontak dari API
   // const [contactsData, setContactsData] = useState([]);
 
-  // Uncomment baris kode di bawah ini untuk membuat fungsi handleGetContactsData yang akan men-dispatch fungsi mengambil data kontak dari api yang sudah dibuat sebelumnya di services/index.js dan menyimpan data kontak ke dalam variabel contactsData
+  // TODO: Uncomment baris kode di bawah ini untuk membuat fungsi handleGetContactsData yang akan men-dispatch fungsi mengambil data kontak dari api yang sudah dibuat sebelumnya di services/index.js dan menyimpan data kontak ke dalam variabel contactsData
   // const handleGetContactsData = async () => {
   //   const res = await getAllContactsData();
   //   setContactsData(res?.data?.data);
   // };
 
-  // Uncomment baris kode di bawah ini untuk memanggil fungsi handleGetContactsData setelah halaman contacts selesai dirender
+  // TODO: Uncomment baris kode di bawah ini untuk memanggil fungsi handleGetContactsData setelah halaman contacts selesai dirender
   // useEffect(() => {
   //   handleGetContactsData();
   // }, []);
@@ -27,7 +27,7 @@ const ContactManager = () => {
       <div className="container">
         <InputContactForm />
         <div className="contact-list__container">
-          {/* Uncomment baris kode di bawah ini untuk menampilkan komponen ContactItem yang berisi data kontak sesuai dengan jumlah data kontak yang didapat dari API */}
+          {/* TODO: Uncomment baris kode di bawah ini untuk menampilkan komponen ContactItem yang berisi data kontak sesuai dengan jumlah data kontak yang didapat dari API */}
           {/* <>
             {contactsData && contactsData?.length > 0
               ? contactsData.map((contact, key) => (
