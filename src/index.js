@@ -2,10 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
-// import App from './App';
 import reportWebVitals from "./reportWebVitals";
 
-// Uncomment baris kode dibawah ini untuk meng-import Halaman Hello ke dalam router
+// TODO: Uncomment baris kode dibawah ini untuk meng-import Halaman Hello ke dalam router
 // import Hello from "./routes/hello";
 import Home from "./routes/home";
 
@@ -15,7 +14,7 @@ const router = createBrowserRouter([
     element: <Home />,
   },
 
-  // Uncomment baris kode dibawah ini untuk menambahkan routing baru ke Halaman Hello
+  // TODO: Uncomment baris kode dibawah ini untuk menambahkan routing baru ke Halaman Hello
   // {
   //   path: "/hello",
   //   element: <Hello />,
