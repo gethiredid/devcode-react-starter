@@ -15,7 +15,7 @@ Peserta dapat mengambil data kontak dari api dan menampilkannya dalam bentuk lis
 
 ## Instruksi Pengerjaan
 
-1. Uncomment baris kode yang terdapat pada file `services/index.js`, `contacts/index.js`
+1. Selesaikan semua TODO yang terdapat pada file `services/index.js`, `contacts/index.js`
 2. Buat online repository di Github (Jika belum memiliki akun Github, silahkan daftar [disini](https://github.com/signup))
 3. Push project ke online repository yang sudah anda buat
 4. Deploy project ini ke Hosting yang anda miliki atau bisa juga menggunakan layanan hosting gratis seperti Vercel (Jika belum memiliki akun Vercel, silahkan daftar [disini](https://vercel.com/signup))
