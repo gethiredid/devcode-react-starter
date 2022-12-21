@@ -8,7 +8,7 @@ const InputContactForm = (props) => {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [email, setEmail] = useState("");
 
-  // Challenge yang harus dikerjakan pada file ini
+  // TODO:
   // 1. Buat metode untuk dispatch fungsi ubah data kontak yang sudah dibuat sebelumnya di service/index.js di dalam fungsi handleSubmit
   // 2. Pada fungsi handleSubmit, buat percabangan dengan kondisi ketika nilai dari id lebih dari 0, maka jalankan fungsi ubah data kontak dan untuk sebaliknya, maka jalankan fungsi untuk tambah kontak baru
 
@@ -34,7 +34,7 @@ const InputContactForm = (props) => {
 
   const allowSubmit = !(!fullName || !phoneNumber || !email);
 
-  // Uncomment baris kode di bawah untuk mengisi input field dengan data kontak yang akan diubah ketika value dari selectedContact berubah
+  // TODO: Uncomment baris kode di bawah untuk mengisi input field dengan data kontak yang akan diubah ketika value dari selectedContact berubah
   // useEffect(() => {
   //   setId(selectedContact?.id);
   //   setFullName(selectedContact?.fullName ? selectedContact.fullName : "");
