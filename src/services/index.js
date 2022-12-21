@@ -8,7 +8,7 @@ export async function getAllContactsData() {
   });
 }
 
-// Uncomment baris kode dibawah untuk membuat sebuah fungsi yang akan mengirimkan data kontak baru ke API
+// TODO: Uncomment baris kode dibawah untuk membuat sebuah fungsi yang akan mengirimkan data kontak baru ke API
 // export async function addNewContact(payload) {
 //   return await axios.post(`${BASE_URL}/contacts`, payload).catch((error) => {
 //     return error;
